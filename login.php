@@ -27,6 +27,7 @@ echo "Hello " . $username . ".
 ";
 echo "Welcome to our chat room!
 ";
+echo "<a href='chat.php'>Click here to start the chat</a>";
 echo "<a href='logout.php'>Logout</a>";
  
 }else{
