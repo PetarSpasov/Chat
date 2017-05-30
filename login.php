@@ -27,8 +27,8 @@ echo "Hello " . $username . ".
 ";
 echo "Welcome to our chat room!
 ";
-echo "<a href='chat.php'>Click here to start the chat</a>";
-echo "<a href='logout.php'>Logout</a>";
+echo "<a href='chat.php'>Click here to start the chat!</a>";
+echo "<a href='logout.php'>or Logout!</a>";
  
 }else{
 //3.2 When the user visits the page first time, simple login form will be displayed.
@@ -61,7 +61,7 @@ echo "<a href='logout.php'>Logout</a>";
         <label for="inputPassword" class="sr-only">Password</label>
         <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Password" required>
         <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
-        <a class="btn btn-lg btn-primary btn-block" href="register.php">Register</a>
+        <a class="btn btn-lg btn-primary btn-block" href="index.php">Register</a>
       </form>
 </div>
  
